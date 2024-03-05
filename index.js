@@ -31,8 +31,8 @@ function descodificar (stringDescondificada) {
     let matrizCodigo = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
     stringDescondificada = stringDescondificada.toLowerCase();
 
-    for (let i = 1; i < matrizCodigo.length; i++) {
-        if (stringDescondificada.includes(matrizCodigo[i][1])) {
+    for (let i = 0; i < matrizCodigo.length; i++) {
+        if (stringDescondificada.includes(matrizCodigo[i][0])) {
             stringDescondificada = stringDescondificada.replaceAll(matrizCodigo[i][1],matrizCodigo[i][0]);
         }
     }
