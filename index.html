@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Decodificador de Texto</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/logo.png" alt="logo">
+    </header>
+    <main>
+        <section> 
+            <textarea class="texto" cols="40" rows="4" placeholder="Digite su texto"></textarea>
+            <div>
+                <img class= "alerta" src="imagenes/alerta.png" alt="alerta">
+            </div>
+            <div class="botones">
+                <button class="boton_codificar" onclick="botonCodificar()"> Codificar </button>
+                <button class="boton_descodificar" onclick="botonDescodificar()" > Descodificar </button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="mensaje" cols="20" rows="10" placeholder="Ningún mensaje Encontrado" ></textarea>
+            <button class="copiar" onclick="copiarContenido()" id="copiar"> Copiar </button>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
