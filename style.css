@@ -56,7 +56,7 @@ main{
 }
 
 .cajatexto::placeholder{
-    color: #0A3871;
+    color:  #0A3871;
 }
 
 .alerta{
@@ -71,7 +71,7 @@ main{
     position: absolute;
     top: 800px;
     height: 80px;
-    padding-left: 0%;
+    padding-left: 4%;
     padding-top: 15px;
 }
 
